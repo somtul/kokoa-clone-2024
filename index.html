@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Talk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -21,6 +22,20 @@
         </div>
     </div>
     
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa account, log in with your email or phone number</p>
+    </header>
+
+    <form>
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="text" placeholder="Password"/>
+        <input type="text" value="Log In"/>
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+
+
     <script src="https://kit.fontawesome.com/7d6c038ac7.js" crossorigin="anonymous"></script>
     <!-- script는 반드시 맨 마지막에  -->
 </html>
