@@ -1,0 +1,25 @@
+.settings-list {
+    margin-top: 70px;
+    height: 1000vh;
+}
+
+.settings-menu {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-menu i {
+    margin-right: 20px;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+.settings-menu__title {
+    font-weight: 600;
+}
+
+.settings-menu__subtitle {
+    opacity: 0.5;
+}
